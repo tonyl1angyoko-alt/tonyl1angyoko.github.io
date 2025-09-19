@@ -1,4 +1,3 @@
-remote_theme: sighingnow/jekyll-gitbook
 
-plugins:
-  - jekyll-remote-theme
+title: Tony 的学习笔记
+description: 记录知识，分享心得。A journey of learning.
