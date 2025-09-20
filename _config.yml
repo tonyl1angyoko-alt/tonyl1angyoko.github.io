@@ -4,3 +4,26 @@ plugins:
   - jekyll-remote-theme 
 title: yoko 的学习笔记
 description: 记录知识，分享心得。A journey of learning.
+
+
+# 手动定义侧边栏目录 (Table of Contents)
+# 添加这个配置后，将覆盖默认的自动文章列表
+toc:
+
+  - title: 首页
+    # 链接到你的根目录，通常是 / 或者 /index.html
+    url: /
+
+  
+  - title: 我的第一篇文章
+    # 这章没有子章节，直接链接到文章
+    url: /2025/09/19/my-first-post.html
+
+
+  - title: CS336 by Stanford
+    url: /CS336/intro.html
+    subfolder:
+      - title: assignment
+        # 这里的 url 必须对应文章的实际链接
+        url: /CS336/assignment.html
+      

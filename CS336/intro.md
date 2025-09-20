@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "CS336 by Stanford"
-date:   2025-09-19 14:00:00 +0900
-author: "付政清"
+layout: default
+title: "intro"
+permalink: /CS336/intro/  # 我自己定义了链接！
 ---
 
 # CS336: Language Modeling from Scratch
