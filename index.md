@@ -1,6 +1,8 @@
 ---
-layout: default
+
+layout: page
 title: "首页"
 ---
 
+欢迎来到我的学习笔记！
 欢迎来到我的学习笔记！
