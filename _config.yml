@@ -9,6 +9,8 @@ description: 记录知识，分享心得。A journey of learning.
 collections:
   cs336:
     output: true
+baseurl: "/tony1tangyoko.github.io" # 【重要】你的仓库名字，前面必须有斜杠 /
+url: "https://tony1tangyoko-alt.github.io" # 【重要】你的 GitHub Pages 主域名
 
 # 2. 你的 toc 部分不需要修改，因为 permalink 仍然有效
 toc:
