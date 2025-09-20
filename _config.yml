@@ -1,9 +1,3 @@
-#-----------------------------------------------
-# 主题和插件配置 (Theme and Plugin Configuration)
-#-----------------------------------------------
-remote_theme: sighingnow/jekyll-gitbook
-plugins:
-  - jekyll-remote-theme
 
 #-----------------------------------------------
 # 网站基础信息 (Basic Site Information)

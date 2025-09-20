@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "assignment"
 permalink: /CS336/assignment/
 ---

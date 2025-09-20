@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: default
 title: "intro"
 permalink: /CS336/intro/
 ---

@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: default
 title: "首页"
 ---
 
