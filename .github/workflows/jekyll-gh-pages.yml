@@ -29,14 +29,14 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # 你可以选择一个合适的 Ruby 版本
-          bundler-cache: true # 缓存 gem 以加快后续构建速度
+          ruby-version: '3.1'
+          bundler-cache: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
-        # 使用 bundle exec jekyll build 来确保使用了 Gemfile 中的依赖
-        run: bundle exec jekyll build --source ./ --destination ./_site --baseurl "${{ steps.pages.outputs.base_path }}"
+        # 在这行末尾添加了 --verbose 标志
+        run: bundle exec jekyll build --source ./ --destination ./_site --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
