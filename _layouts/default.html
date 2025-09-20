@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="{{ site.description }}">
+        <meta name="generator" content="Jekyll">
+        <meta name="author" content="{{ site.author }}">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+    </head>
+    <body>
+        <div class="book">
+            <div class="book-summary">
+                {% include navigation.html %}
+            </div>
+
+            <div class="book-body">
+                <div class="body-inner">
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            <section class="normal" itemscope itemtype="http://schema.org/Article">
+                                {% if page.title %}
+                                <header>
+                                    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+                                </header>
+                                {% endif %}
+                                <div class="post-content" itemprop="articleBody">
+                                    {{ content }}
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
