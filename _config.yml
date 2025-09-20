@@ -1,31 +1,26 @@
 remote_theme: sighingnow/jekyll-gitbook
-
 plugins:
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
+
 title: yoko 的学习笔记
 description: 记录知识，分享心得。A journey of learning.
 
+# 1. 在这里定义集合
+collections:
+  cs336:
+    output: true
 
-# 手动定义侧边栏目录 (Table of Contents)
-# 添加这个配置后，将覆盖默认的自动文章列表
+# 2. 你的 toc 部分不需要修改，因为 permalink 仍然有效
 toc:
-
   - title: 首页
-    # 链接到你的根目录，通常是 / 或者 /index.html
     url: /
 
-  
   - title: 我的第一篇文章
-    # 这章没有子章节，直接链接到文章
-    url: /2025/09/19/my-first-post.html
-
+    url: /my-first-post/
 
   - title: CS336 by Stanford
-    
     subfolder:
       - title: Intro
         url: /CS336/intro/
       - title: Assignment
-        # 这里的 url 必须对应文章的实际链接
         url: /CS336/assignment/
-      
